@@ -1,0 +1,108 @@
+/* עיצוב כללי */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* יישור למרכז */
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 10vh;
+  padding-bottom: 20vw;
+  text-align: center;
+}
+
+/* עיצוב ה-#root */
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* עיצוב ה-main */
+main {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* עיצוב לוגו */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* כותרת שם העסק */
+.business-name {
+  text-align: center;
+  color: #FFFFFF !important; /* צבע לבן */
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* עיצוב להדר */
+.MuiAppBar-root {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* ריווח התוכן מתחת להדר */
+body {
+  margin-top: 64px;
+}
+
+/* עיצוב קישורים */
+.nav-link {
+  text-decoration: none;
+  color: #FFD700;
+}
+
+/* עיצוב כרטיסים */
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* עיצוב פוטר */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
